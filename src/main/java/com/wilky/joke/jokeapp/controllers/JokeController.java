@@ -19,6 +19,6 @@ public class JokeController {
     public String showJoke(Model model) {
         model.addAttribute("joke", jokeService.getJoke()); //joke attribute named joke
 
-        return "chucknorris";//return viewname
+        return "chucknorris";//return view name
     }
 }
